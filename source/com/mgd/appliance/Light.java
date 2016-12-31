@@ -49,7 +49,7 @@ public class Light{
 	}
 	public void setLevel(int level) { 
 		this.level = getClampedLevel(level);
-		System.out.println("The " + room + " level is set to " + this.light);
+		System.out.println("The " + room + " level is set to " + this.level);
 	}
 
 	@Override
